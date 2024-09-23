@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en" th:replace="~{home :: parent(~{::#content},~{::script})}">
+<!--  xmlns:th="http://www.thymeleaf.org" th:fragment="Layout(content)" -->
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Login Page</title>
+
+    
+  </head>
+  <body>
+  
+  <div id="content">
+		<section class="Form my-4 mx-5">
+    
+    <div class="container">
+    <div class="row no-gutters">
+    <div class="col-lg-5">
+    <img src="./module.png" class="img-fluid" alt="">
+    </div>
+    <div class="col-lg-7 px-5 pt-5">
+    
+    <h1 class="font-weight-bold">Welcome,</h1>
+    <h3>Sign into your account</h3>
+    <form method="post" data-th-action="@{'/authenticate'}">
+    <div class="form-row">
+    <div class="col-lg-7">
+   
+<input id="email" name="email" type="email" placeholder="Enter email" class="form-control my-3 p-4" >
+    </div>
+    </div>
+    
+     <div class="form-row">
+    <div class="col-lg-7">
+   
+<input id="password" name="password" type="password" placeholder="********" class="form-control my-3 p-4" >
+    </div>
+    </div>
+    
+    <div class="form-row">
+    <div class="col-lg-7">
+   
+<button type="submit" class="btn1 mt-3 mb-5">Login</button>
+    </div>
+    </div>
+    <a href="#">Forget Password?</a>
+     <p> Dont't have an account? <a href="#">Register here</a></p>
+    
+    </form>
+    </div>
+    
+    </div>
+    </div>
+    </section>
+	</div>
+   <script>
+		console.log("Call Login Page");
+	</script>
+  </body>
+</html>

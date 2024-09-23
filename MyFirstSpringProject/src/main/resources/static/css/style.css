@@ -1,0 +1,225 @@
+
+
+    *{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    }
+   /*  body{
+    background: rgb(219,226,226);
+    } */
+    /* .row{
+    background:white;
+    border-radius:30px;
+    box-shadow:12px 12 px 22px grey;
+    } */
+    
+    img
+    {border-top-left-radius:30px;
+    border-bottom-left-radius:30px;
+    }
+    
+    .btn1{
+    border:none;
+    outline:none;
+    height:50px;
+    width:100%;
+    background-color:black;
+    color:white;
+    border-radius:4px;
+    font-weight:bold;
+    }
+    
+    .btn1:hover{
+    background:white;
+    border:1px solid;
+    color:black;
+    }
+    
+    .navbar-brand
+    {
+      font-family: "Qwitcher Grypen", cursive;
+  font-weight: 700;
+  font-style: normal;
+    font-size:2rem;
+     color:black;
+    }
+    .navbar-brand:hover
+    {
+      color:black;
+    }
+    
+    .nav-link{
+     font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+    margin-right:5px;
+    margin-left:5px;
+     color:black;
+    text-transform:uppercase;
+    }
+    .nav-link:hover
+    {
+    color:blue;
+    }
+    
+    .main
+    {
+    background: url(/img/cherry.jpg)no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width:100%;
+    background-position: 50%;
+    }
+    
+    .main h1{
+    font-size:4rem;
+    font-weight:700;
+    }
+    
+    .morebtn
+    {
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline:none;
+    background-color: rgb(248,26,92);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+    }
+    
+    
+    
+    
+    
+    .card:hover
+    {
+    -webkit-box-shadow: -18px 12px 40px -16px rgba(0,0,0,0.74);
+-moz-box-shadow: -18px 12px 40px -16px rgba(0,0,0,0.74);
+box-shadow: -18px 12px 40px -16px rgba(0,0,0,0.74);
+   transition:0.5;
+    }
+    
+    .banner2
+    {
+    
+     background: url(/img/banner2.jpg)no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width:100%;
+    background-position: 50%;
+    }
+    
+    .banner2 h1{
+    font-family: "Qwitcher Grypen", cursive;
+  font-weight: 700;
+  font-style: normal;
+    font-size:4rem;
+    font-weight:700;
+    color:white
+    }
+    
+    .joinbtn
+    {
+    background-color: white;
+    color: black;
+    height: 45px;
+    width: 100px;
+    margin-left: -12px;
+    border: 2px solid white;
+    font-weight: 600;
+    
+    }
+    
+    
+    .join
+    {
+    background-color: black;
+    color: white
+    }
+    
+    .join input
+    {
+    height: 45px;
+    width: 55%;
+    border:2px solid white;
+    outline:none;
+    background: black;
+    color: white;
+    margin-top: 20px;
+    }
+    
+    .aboutmain
+    {
+    
+
+     background: url(/img/about.jpg)no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width:100%;
+    background-position: 50%;
+    }
+    
+    .carrermain
+    {
+    background: url(/img/carrer.jpg)no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width:100%;
+    background-position: 50%;
+    }
+    .blurtext
+    {
+    background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  
+    }
+    
+    .login-button {
+	background-color: #009970;
+	color: #fff;
+	font-size: 14px;
+	padding: 8px 20px;
+	border-radius: 50px;
+	text-decoration: none;
+	transition: 0.3s background-color;
+}
+
+.login-button:hover {
+	background-color: #b8bcc2;
+}
+
+
+.theme-button {
+	background-color: #BBB;
+	color: #fff;
+	font-size: 14px;
+	padding: 8px 20px;
+	border: none;
+	margin-right: 5px;
+	border-radius: 50px;
+	text-decoration: none;
+	transition: 0.3s background-color;
+}
+
+.theme-button:hover {
+	background-color: #999;
+}
+
+.registration-button {
+	background-color: #ff8040;
+	color: #fff;
+	margin-left: 5px;
+	font-size: 14px;
+	padding: 8px 20px;
+	border-radius: 50px;
+	text-decoration: none;
+	transition: 0.3s background-color;
+	font-size: 14px;
+}
+.registration-button:hover {
+	background-color: #b8bcc2;
+}
+
+   
